@@ -78,8 +78,8 @@
                                 <a id="brand" class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Law"></a>
                             </div>
                             <div class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav navbar-right" id="nav">
-                                    <li class="current"><a href="#Home" title="">Home</a></li>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#Home" title="">Home</a></li>
                                     <li><a href="#Practice_Area" title="">Practice Area</a></li>
                                     <li><a href="#Case_Area" title="">Case Area</a></li>
                                     <li><a href="#faq" title="">FAQ</a></li>
@@ -92,6 +92,7 @@
                 </div><!-- menu wrapper -->
             </header><!-- end header -->
         </div><!-- end container -->
+
         <div id="page_header">
             <div id="parallax" class="parallax bgback bg" style="background-image: url('demos/top_head_09.png');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20"></div>
             <div class="container text-center">
@@ -527,54 +528,42 @@
             <script src="js/jquery.js"></script>
             <script src="js/bootstrap.js"></script> 
             <script src="js/custom.js"></script>
-            <script src="jquery.nav.min.js"></script>
             <script type="text/javascript">
-                          $('a').click(function(){
-                        $('html, body').animate({
-                            scrollTop: $( $.attr(this, 'href') ).offset().top
-                        }, 500);
-                        return false;
-                    });
-            </script>
-            <script>
-                $(document).ready(function() {
-                  $('#nav').onePageNav();
-                  
-                  $('.do').click(function(e) {
-                    $('#section-4').append('<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>');
-                    e.preventDefault();
-                  });
-                  
-                });
+              $('a').click(function(){
+            $('html, body').animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 500);
+            return false;
+        });
             </script>
             <script type="text/javascript">$(document).on('click', '.panel-heading span.clickable', function (e) {
-                var $this = $(this);
-                if (!$this.hasClass('panel-collapsed')) {
-                    $this.parents('.panel').find('.panel-body').slideUp();
-                    $this.addClass('panel-collapsed');
-                    $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
-                } else {
-                    $this.parents('.panel').find('.panel-body').slideDown();
-                    $this.removeClass('panel-collapsed');
-                    $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
-                }
-            });
-            $(document).on('click', '.panel div.clickable', function (e) {
-                var $this = $(this);
-                if (!$this.hasClass('panel-collapsed')) {
-                    $this.parents('.panel').find('.panel-body').slideUp();
-                    $this.addClass('panel-collapsed');
-                    $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
-                } else {
-                    $this.parents('.panel').find('.panel-body').slideDown();
-                    $this.removeClass('panel-collapsed');
-                    $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
-                }
-            });
-            $(document).ready(function () {
-                $('.panel-heading span.clickable').click();
-                $('.panel div.clickable').click();
-            });
+            var $this = $(this);
+            if (!$this.hasClass('panel-collapsed')) {
+                $this.parents('.panel').find('.panel-body').slideUp();
+                $this.addClass('panel-collapsed');
+                $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+            } else {
+                $this.parents('.panel').find('.panel-body').slideDown();
+                $this.removeClass('panel-collapsed');
+                $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+            }
+        });
+        $(document).on('click', '.panel div.clickable', function (e) {
+            var $this = $(this);
+            if (!$this.hasClass('panel-collapsed')) {
+                $this.parents('.panel').find('.panel-body').slideUp();
+                $this.addClass('panel-collapsed');
+                $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+            } else {
+                $this.parents('.panel').find('.panel-body').slideDown();
+                $this.removeClass('panel-collapsed');
+                $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+            }
+        });
+        $(document).ready(function () {
+            $('.panel-heading span.clickable').click();
+            $('.panel div.clickable').click();
+        });
         </script>
 
 </body>

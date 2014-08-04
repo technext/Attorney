@@ -14,10 +14,7 @@
 	9) RESPONSIVE
 	
 ################################################################# */ 
-#navigation-menu a:hover, #navigation-menu a.mPS2id-highlight{
-	background: #e6842c;
-	color: #fff;
-}
+
 
 .title-text{
 	font-family: 'Montserrat Subrayada', sans-serif;
@@ -363,7 +360,16 @@ spancolor{
 	#custom .navbar-default .navbar-nav > li > a {
 		color:#fff;
 	}
-	
+	#nav a:hover {
+	  background: #dedede;
+	}
+	#nav .current a {
+	  background: #666;
+	  color: #ededed;
+	}
+	.current {
+	  background: #26CDA4;
+	}
 	.menu-wrapper {	
 		position: absolute;	
 		width:100%;
