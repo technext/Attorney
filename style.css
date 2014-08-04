@@ -14,6 +14,10 @@
 	9) RESPONSIVE
 	
 ################################################################# */ 
+#navigation-menu a:hover, #navigation-menu a.mPS2id-highlight{
+	background: #e6842c;
+	color: #fff;
+}
 
 .title-text{
 	font-family: 'Montserrat Subrayada', sans-serif;
