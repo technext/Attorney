@@ -292,10 +292,10 @@ spancolor{
 		z-index: 99;
 	}
 	.makeborder-top {
-		width: 100%;
+		/*width: 100%;
 		top: 0;
 		left: 0;
-		padding: 10px;
+		padding: 10px;*/
 	}
 	.makeborder-bottom {
 		width: 100%;
@@ -360,9 +360,10 @@ spancolor{
 		color:#fff;
 	}
 	
-	.menu-wrapper {		
+	.menu-wrapper {	
+		position: absolute;	
 		width:100%;
-		top:0;
+		top:30;
 		padding:0;
 		margin:0;
 		z-index: 9999;
@@ -408,6 +409,7 @@ spancolor{
 	#custom .menu-wrapper.affix .navbar-default {   
 		background: rgb(255, 255, 255) !important; /* The Fallback */
 		background: rgba(255, 255, 255, 0.9) !important; 
+		margin-top: -20px;
 	}
 	#custom .menu-wrapper.affix .navbar-default .navbar-nav i,
 	#custom .menu-wrapper.affix .navbar-default .navbar-nav > li > a {
@@ -717,6 +719,7 @@ spancolor{
 		filter:alpha(opacity=60)
 	}
 	#page_header .container{
+		margin-top: 100px;
 		z-index:1;
 		position:relative;
 		padding-bottom: 190px;
