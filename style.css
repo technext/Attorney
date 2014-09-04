@@ -22,7 +22,10 @@
 	font-weight: bolder;
 
 }
-spancolor{
+.space-top{
+	margin-top: 80px;
+}
+.spancolor{
 	color:#26CDA4;
 }
 .title-footer{
