@@ -16,15 +16,13 @@
 ################################################################# */ 
 
 
+
 .title-text{
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-weight: bolder;
 
 }
-.space-top{
-	margin-top: 80px;
-}
-.spancolor{
+spancolor{
 	color:#26CDA4;
 }
 .title-footer{
@@ -317,7 +315,34 @@
 		right: 0;
 		height: 100%;
 	}
-	
+	.modal .close {
+		font-size:71px;
+		opacity: 1;
+		color:#aaa;
+		filter: alpha(opacity=100);
+	}
+	.modal-content .form-control,
+	.modal-content {
+		box-shadow:none;
+		font-size:54px;
+		font-family:fquaver_sansregular;
+		height:80px;
+		border-bottom:1px solid #aaa;
+		border-radius:0;
+		border-left:none;
+		background-color:#f3f3ef;
+		border-right:none;
+		border-top:none;
+	}
+	.modal {
+		top:30%;
+		margin-top:-20px;
+	}
+	.modal-backdrop {
+		z-index:999;
+		background-color: #f3f3ef;
+	}
+
 
 	
 /* ----------------------------------------------------
@@ -344,7 +369,8 @@
 	  color: #ededed;
 	}
 	.current {
-	  background: #83AEA3;
+	  background: #70e5c8;
+	  border-radius: 17px 0px 0px 0px;
 	}
 	.menu-wrapper {	
 		position: absolute;	
@@ -371,7 +397,7 @@
 	}
 	.menu-wrapper.affix .navbar-brand img {
 		width:75%;
-		padding: 10px 18px 0 !important;
+		padding:8px 0;
 	}
 	.header .dropdown-menu li a:hover,
 	.header .dropdown-menu li a:focus {
@@ -445,7 +471,7 @@
 		color:#666666;
 	}
 	.header .navbar-brand {
-		margin: -21px 0px;
+		margin:-10px 0;
 	}
 	.header .nav li a {
 		font-size:13px;
@@ -644,6 +670,28 @@
 		padding-right:5%;
 	}
 	
+	.skill_count {
+		position:absolute;
+		right:4%;
+		font-weight:bold;
+		font-size:14px; 
+		color:#222;
+		top:10px
+	}
+	.skills_bar {
+		margin:10px 0;
+		overflow:hidden;
+	}
+	.skills_bar small {
+		position:absolute;
+		left:4%;
+		font-weight:bold;
+		font-size:14px !important; 
+		color:#fff;
+		top:0
+	}
+	
+
 	#page_header .bgback.bg {
 		background:no-repeat scroll center top;
 	}
@@ -728,46 +776,102 @@
 		vertical-align: top;
 		width: 35px;
 	}	
+	#comments_form textarea,
+	.contact_form textarea {
+		height: 160px !important;
+	}
+	#subscribe .btn {
+		padding:8px 20px !important;
+	}
+	#billinginfo .form-control,
+	#personalinfo .form-control,
+	#cartinfo .form-control {
+		margin: 10px 0 10px !important;
+	}
+	.well {
+		background: #fff;
+		margin:10px 0 15px;
+	}
+	#billinginfo .form-control,
+	#personalinfo .form-control,
+	#cartinfo .form-control,
+	#subscribe .form-control {
+		background-color: #FFFFFF;
+		border: 1px solid #dddddd;
+		border-radius: 0;
+		color: #aaa;
+		font-size: 14px;
+		height: 40px;
+		margin: 20px 0 10px;
+		width: 100%;
+		letter-spacing:1px;
+		font-family: 'quaver_serifregular';
+	}
+	#comments_form .form-control,
+	.contact_form .form-control {
+		background-color: #FFFFFF;
+		border: 1px solid #dddddd;
+		border-radius: 0;
+		color: #aaa;
+		font-size: 18px;
+		height: 50px;
+		margin-bottom: 20px;
+		width: 100%;
+		letter-spacing:1px;
+		font-family: 'quaver_serifregular';
+	}
+	#comments_form .form-control::-moz-placeholder,
+	.contact_form .form-control::-moz-placeholder {
+		color: #DADADA;
+	}	
+	#contactform fieldset {
+		padding:10px;
+		border:1px solid #eee;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+	}
+	#contactform legend {
+		padding:7px 10px; 
+		font-weight:bold; 
+		color:#000; 
+		border:1px solid #eee; 
+		-webkit-border-radius:5px; 
+		-moz-border-radius:5px; 
+		margin-bottom:0 !important; 
+		margin-bottom:20px;
+	}
+	#contactform span.required{ 
+		font-size: 13px; 
+		color: #ff0000;
+	}
+	#message {
+		margin: 10px 0; 
+		padding: 0;
+	}
+	.error_message {
+		display: block; 
+		height: 22px; 
+		line-height: 22px; 
+		background: #FBE3E4 url(images/error.gif) no-repeat 10px center;
+		 padding: 3px 10px 3px 35px; 
+		 color:#8a1f11;
+		 border: 1px solid #FBC2C4; 
+		 -webkit-border-radius:5px;
+	}
+	.loader {
+		padding: 0 10px;
+	}
+	#contactform #success_page h1 {
+		background: url(images/success.gif) left no-repeat; 
+		padding-left:22px;
+	}
+	acronym {
+		border-bottom:1px dotted #ccc;
+	}
+	
 	
 	.makepadding {
 		padding:50px 0;
-	}
-	
-	.title {
-		position:relative;
-		display:block;
-	}
-	.title h4 {
-		font-size:24px !important;
-		padding-bottom:0;
-		text-transform:uppercase;
-		letter-spacing:0.6px;
-	}
-	.title h3 {
-		font-size:30px !important;
-		padding-bottom:0;
-		text-transform:uppercase;
-		letter-spacing:0.6px;
-		color: #936E76;
-	}
-	#page_header hr {
-		margin:0 auto 30px !important;
-	}
-	.title.text-center hr {
-		margin:30px auto !important;
-	}
-	#page_header .lead {
-		font-family: 'Nothing You Could Do', cursive;
-		color:#fff;
-		font-size:18px !important;
-		text-transform:uppercase;
-	}
-	#page_header hr,
-	.title hr {
-		border: 0 none;
-		height:6px;
-		margin: 10px 0 0;
-		width: 70px;
 	}
 	.tagline {
 		text-align:center;
@@ -1055,8 +1159,4 @@
 }
 a.clickable { color: inherit; }
 a.clickable:hover { text-decoration:none; }
-
-/*********** Capability ****************/
-
-
 	
