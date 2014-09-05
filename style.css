@@ -14,7 +14,24 @@
 	9) RESPONSIVE
 	
 ################################################################# */ 
+.white-text{
+	color: white;
+}
 
+@media only screen and (min-width : 1024px) and (max-width : 1920px) {
+		.title-pie{
+	background: rgba(31, 65, 63, 1);
+	color: white !important;
+	}
+		}
+
+.title-pie{
+	background: rgba(31, 65, 63, 1);
+	color: white !important;
+	text-align: center;
+	padding: 5px;
+	font-variant: small-caps;
+}
 
 .title-text{
 	font-family: 'Montserrat Subrayada', sans-serif;
@@ -344,7 +361,7 @@
 	  color: #ededed;
 	}
 	.current {
-	  background: #83AEA3;
+	  background: rgba(32, 255, 223, 0.14);
 	}
 	.menu-wrapper {	
 		position: absolute;	
@@ -633,8 +650,23 @@
 	.panel-title {
 		padding-bottom:0;
 	}
+	.panel-body {
+    padding: 15px;
+    background: #121F2A !important;
+    color: white !important;
+
+}
+	.title-panel{
+		background: none repeat scroll 0% 0% #1F413F;
+		color: #FFF !important;	
+	    text-align: center;
+	    padding: 15px;
+	    font-variant: small-caps;
+}
 	.panel-default > .panel-heading {
-		background-color:#fff;
+		background-color: #2B2D36;
+		color: white;
+		padding: 15px;
 	}
 	.nav-tabs {
 		margin-left:0;
@@ -703,6 +735,7 @@
 	}
 	.team_member {
 		text-align:center;
+		background: rgba(51, 0, 255, 0.18);
 	}
 	.team_member h3 {
 		padding-bottom:5px;
@@ -1038,10 +1071,13 @@
 {
     cursor: pointer;
 }
+.panel-heading {
+    border-color: rgba(3, 108, 71, 1) !important;
+}
 
 .clickable .glyphicon
 {
-    background: rgba(0, 0, 0, 0.15);
+    
     display: inline-block;
     padding: 6px 12px;
     border-radius: 4px
@@ -1057,6 +1093,89 @@ a.clickable { color: inherit; }
 a.clickable:hover { text-decoration:none; }
 
 /*********** Capability ****************/
+
+
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent {
+  display: inline-block;
+  line-height: 110px;
+  z-index: 2;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+.angular {
+  margin-top: 100px;
+}
+.angular .chart {
+  margin-top: 0;
+}
+input {
+  display: block;
+  margin: auto;
+  margin-bottom: 3em;
+}
+.btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: #cccccc;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.8em;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.btn:hover {
+  background: #333333;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  li {
+    font-size: 14.4px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .span6 {
+    float: none;
+    width: 100%;
+  }
+  body {
+    padding-top: 0;
+  }
+  ul {
+    height: auto;
+    position: static;
+  }
+  li {
+    display: block;
+    width: 100%;
+  }
+  li a {
+    white-space: normal;
+  }
+  a.active:after {
+    display: none;
+  }
+}
 
 
 	
