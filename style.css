@@ -14,8 +14,120 @@
 	9) RESPONSIVE
 	
 ################################################################# */ 
+img.img-responsive.pm-inline {
+text-align: center;
+margin: 0 auto;
+}
+h6.pm-column-title {
+	margin-top: 35px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.block-one {
+padding: 60px 15px 47px 15px;
+}
+.block {
+border-right: 2px solid rgba(199, 199, 199, 0.48);
+}
+.pm-rounded-btn {
+width: auto;
+height: auto;
+display: inline;
+background-color: #2a313a;
+min-width: 100px;
+display: inline-block;
+padding: 10px 30px;
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'Open sans';
+font-size: 14px;
+font-weight: bold;
+color: white !important;
+margin: 15px 0px;
+text-align: center;
+border-radius: 99px;
+-webkit-border-radius: 99px;
+-o-border-radius: 99px;
+transition: all 0.4s;
+-moz-transition: all 0.4s;
+-webkit-transition: all 0.4s;
+-o-transition: all 0.4s;
+}
+.btn-blk{
+	text-align: center;
+}
+.caret-down {
+text-align: center;
+padding: 0 0 17px 0;
+}
+
+
 .white-text{
 	color: white;
+}
+.faq-text{
+	color: white !important;
+}
+.angle-down{
+	position: relative;
+	top: 80px;
+}
+div#faq {
+	margin-top: -60px;
+background: rgb(33, 45, 42);
+padding: 111px;
+}
+div#Case_Area {
+	margin-top: -60px;
+padding-top: 111px;
+}
+
+
+h2.header-text:before{
+	content: "[";
+	position: relative;
+	right: 10px;
+	font-size: 90px;
+	top: 5px;
+}
+h2.header-text:after{
+	content: "]";
+	position: relative;
+	left: 10px;
+	font-size: 90px;
+	top: 5px;
+}
+span.rotate{
+	transition:1s;
+}
+div#contact {
+margin-top: -60px;
+padding-top: 111px;
+}
+
+
+div#Practice_Area {
+	top: -35px;
+	background: rgba(215, 215, 215, 0.188235);
+	padding: 111px;
+	position: relative;
+	}
+div#team {
+    padding-top: 100px;
+    background: aliceblue;
+}
+
+h2.header-text{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-size: 55px;
+	text-transform: uppercase;
+}
+
+.fa-4x{
+	font-size: 90px;
 }
 
 @media only screen and (min-width : 1024px) and (max-width : 1920px) {
@@ -297,8 +409,9 @@
 		background:#fff;
 	}
 	#wrapper {
-		position:relative;
-		display:block;
+	background: rgba(154, 154, 154, 0.53);
+	position: relative;
+	display: block;
 	}
 	#wrapper.container {
 		background-color:#fff;
@@ -322,9 +435,9 @@
 		width: 100%;
 		bottom: 0;
 		left: 0;
-		padding: 10px;
+		padding: 3px;
 	}
-	.makeborder-left {
+	/*.makeborder-left {
 		width: 22px;
 		left: 0;
 		height: 100%;
@@ -333,7 +446,7 @@
 		width: 22px;
 		right: 0;
 		height: 100%;
-	}
+	}*/
 	
 
 	
@@ -361,7 +474,7 @@
 	  color: #ededed;
 	}
 	.current {
-	  background: rgba(32, 255, 223, 0.14);
+	background: rgba(93, 124, 120, 0.11);
 	}
 	.menu-wrapper {	
 		position: absolute;	
@@ -406,17 +519,14 @@
 		margin-top:10px;
 		padding-right:20px;
 	}
-	.header,
-	.navbar-default,
-	#custom .menu-wrapper.affix .header,
-	#custom .menu-wrapper.affix .navbar-default {   
-		background: rgb(255, 255, 255) !important; /* The Fallback */
-		background: rgba(255, 255, 255, 0.9) !important; 
-		margin-top: -20px;
+	.header, .navbar-default, #custom .menu-wrapper.affix .header, #custom .menu-wrapper.affix .navbar-default {
+	background: rgb(170, 181, 179) !important;
+	margin-top: -20px;
+	transition: .4s;
 	}
 	#custom .menu-wrapper.affix .navbar-default .navbar-nav i,
 	#custom .menu-wrapper.affix .navbar-default .navbar-nav > li > a {
-		color:#666 !important;
+		color:#fff !important;
 	}
 	.menu-wrapper.affix {
 		
@@ -461,8 +571,10 @@
 		font-weight:bold;
 		color:#666666;
 	}
+	@media (min-width: 768px){
 	.header .navbar-brand {
 		margin: -21px 0px;
+	}
 	}
 	.header .nav li a {
 		font-size:13px;
@@ -651,22 +763,25 @@
 		padding-bottom:0;
 	}
 	.panel-body {
-    padding: 15px;
-    background: #121F2A !important;
-    color: white !important;
-
-}
+	padding: 15px;
+	background: #3A3F43 !important;
+	color: white !important;
+	}
 	.title-panel{
-		background: none repeat scroll 0% 0% #1F413F;
+		background: rgba(90, 103, 102, 1);
 		color: #FFF !important;	
 	    text-align: center;
 	    padding: 15px;
 	    font-variant: small-caps;
 }
+	.panel {
+border: 0px solid transparent !important;
+}
+
 	.panel-default > .panel-heading {
-		background-color: #2B2D36;
-		color: white;
-		padding: 15px;
+	background-color: #5B6867;
+	color: white;
+	padding: 15px;
 	}
 	.nav-tabs {
 		margin-left:0;
@@ -679,12 +794,7 @@
 	#page_header .bgback.bg {
 		background:no-repeat scroll center top;
 	}
-	#page_header h2 {
-		font-family:'bariol_boldbold',sans-serif !important;
-		color:#fff;
-		font-size:48px;
-		text-transform:uppercase;
-	}
+	
 	#page_header .bgback {
 		bottom: 0;
 		left: 0;
@@ -718,7 +828,8 @@
 		margin-top: 100px;
 		z-index:1;
 		position:relative;
-		padding-bottom: 190px;
+		padding-bottom: 250px;
+		top: 80px;
 	}
 	#page_header:after{
 		content:"";
@@ -735,7 +846,6 @@
 	}
 	.team_member {
 		text-align:center;
-		background: rgba(51, 0, 255, 0.18);
 	}
 	.team_member h3 {
 		padding-bottom:5px;
@@ -830,12 +940,12 @@
 		letter-spacing:0.6px;
 	}
 	.title h3 {
-		font-size:30px !important;
-		padding-bottom:0;
-		text-transform:uppercase;
-		letter-spacing:0.6px;
-		color: #936E76;
-	}
+		font-size: 30px !important;
+		padding-bottom: 0;
+		text-transform: uppercase;
+		letter-spacing: 0.6px;
+		color: #5F928F;
+		}
 	#page_header hr {
 		margin:0 auto 30px !important;
 	}
@@ -890,7 +1000,7 @@
 	.navbar-default .navbar-nav > .open > a:focus,
 	.header .nav li a:hover,
 	.header .nav li a:focus {
-		color:#26cda4;
+		color:#B5F1E3;
 	}
 	
 	p.drop-caps.full:first-child:first-letter,
@@ -965,6 +1075,10 @@
 		}
 		.portfolio-filter li {
 			margin-left:5px;
+		}
+
+		li.img_item {
+		width: 360px;
 		}
 
 		.modal-content .form-control, .modal-content,
@@ -1176,6 +1290,3 @@ input {
     display: none;
   }
 }
-
-
-	

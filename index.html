@@ -28,10 +28,13 @@
     <link type="text/css" rel="stylesheet" href="style-portfolio.css" media="screen">
     <link type="text/css" rel="stylesheet" href="css/pro-bars.min.css" media="screen">
     <link type="text/css" rel="stylesheet" href="css/animate.min.css" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/rotator.css" media="screen">
     <!-- Google Font Styles -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat+Subrayada:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     
     <!-- Support for HTML5 -->
     <!--[if lt IE 9]>
@@ -82,8 +85,9 @@
                                 <ul class="nav navbar-nav navbar-right" id="nav">
                                     <li class="current"><a href="#Home" title="">Home</a></li>
                                     <li><a href="#Practice_Area" title="">Practice Area</a></li>
-                                    <li><a href="#Case_Area" title="">Case Area</a></li>
+                                    
                                     <li><a href="#faq" title="">FAQ</a></li>
+                                    <li><a href="#Case_Area" title="">Case Area</a></li>
                                     <li><a href="#team" title="">Lawers</a></li>
                                     <li><a href="#contact" title="">Contact</a></li>
                                 </ul>
@@ -94,14 +98,16 @@
             </header><!-- end header -->
         </div><!-- end container -->
         <div id="page_header">
-            <div id="parallax" class="parallax bgback bg" style="background-image: url('demos/top_head_09.png');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20"></div>
-            <div class="container text-center">
-                <h2>A Good Lawer <span>Knows the law,</span></h2>
-                <hr>
-                <h2>A Great Lawer <span>Knows the Judge.</span></h2>
-                <br>
-                <a href="#Practice_Area"
-                <i class="fa fa-angle-double-down fa-4x wow animated fadeInDown" data-wow-iteration="infinite" ></i></a>      
+            <div id="parallax" class="parallax bgback bg" style="background-image: url('images/5.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20"></div>
+
+
+            <div class="container text-center header-part">
+                <h2 class="header-text">A <span class="rotate">Good, Great </span> Lawer Knows the <span class="rotate"> Law, Judge </span></h2>
+                
+                <div class="angle-down">
+                    <a href="#Practice_Area"
+                    <i class="fa fa-angle-double-down fa-4x wow animated fadeInDown" data-wow-iteration="infinite" ></i></a> 
+                </div>     
             </div>
         </div><!-- end page_header -->
         
@@ -110,10 +116,11 @@
         
             <div class="tagline makepadding clearfix">
                 <h1><span>Hello!</span> We Design Stunning Products.</h1>
-                <p class="lead">We are a <span>Law</span> team working together to craft awesome websites, realise brand identities, design for<br> print and capture visual imagery through photography.</p> 
+                <p class="lead">We are a <span>Law</span> team working together to craft awesome websites, realise brand identities, design for<br> print and capture visual imagery through quality.</p> 
             </div><!-- end tagline -->
-            
+        </div>    
             <div id="Practice_Area">
+            <div class="container">
                 <div class="title text-center">
                     <h3 class="title-text">Practice Area</h3>
                     <em class="lead"> We are here to provide you legal help !</em>
@@ -121,7 +128,7 @@
                 </div>
                 
                 <div class="row">
-            <section>
+          
                 <ul class="portfolio-items">
                     <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <li class="img_item">
@@ -135,7 +142,7 @@
                         </div>
                         <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <li class="img_item">
-                            <div class="caption12 ctn_green">
+                            <div class="caption8 ctn_green">
                                 <h3>Green</h3>
                                 <p>Vestibulum ante ipsum primis in fauci bus orci luctus et ultrices posuere cubilia. Ut in magna eget quam biben dum rhoncus ipsum.</p>
                                 <a href="#" class="pf_button">Details</a>
@@ -144,7 +151,7 @@
                         </li></div>
                         <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <li class="img_item">
-                            <div class="caption15 ctn_brown">
+                            <div class="caption8 ctn_brown">
                                 <h3>Brown</h3>
                                 <p>Vestibulum ante ipsum primis in fauci bus orci luctus et ultrices posuere cubilia. Ut in magna eget quam biben dum rhoncus ipsum.</p>
                                 <a href="#" class="pf_button">Details</a>
@@ -154,7 +161,7 @@
                         </div>
                         <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <li class="img_item">
-                            <div class="caption14 ctn_darkslategray">
+                            <div class="caption8 ctn_darkslategray">
                                 <h3>Darkslategray</h3>
                                 <p>Vestibulum ante ipsum primis in fauci bus orci luctus et ultrices posuere cubilia. Ut in magna eget quam biben dum rhoncus ipsum.</p>
                                 <a href="#" class="pf_button">Details</a>
@@ -164,7 +171,7 @@
                         </div>
                         <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <li class="img_item">
-                            <div class="caption6 ctn_indianred">
+                            <div class="caption8 ctn_indianred">
                                 <h3>Indianred</h3>
                                 <p>Vestibulum ante ipsum primis in fauci bus orci luctus et ultrices posuere cubilia. Ut in magna eget quam biben dum rhoncus ipsum.</p>
                                 <a href="#" class="pf_button orange">Details</a>
@@ -174,7 +181,7 @@
                         </div>
                         <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <li class="img_item">
-                            <div class="caption11 ctn_white">
+                            <div class="caption8 ctn_white">
                                 <h3>White</h3>
                                 <p>Vestibulum ante ipsum primis in fauci bus orci luctus et ultrices posuere cubilia. Ut in magna eget quam biben dum rhoncus ipsum.</p>
                                 <a href="#" class="pf_button">Details</a>
@@ -184,7 +191,7 @@
                         </div>
                         <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <li class="img_item">
-                            <div class="caption13 ctn_teal">
+                            <div class="caption8 ctn_teal">
                                 <h3>Teal</h3>
                                 <p>Vestibulum ante ipsum primis in fauci bus orci luctus et ultrices posuere cubilia. Ut in magna eget quam biben dum rhoncus ipsum.</p>
                                 <a href="#" class="pf_button">Details</a>
@@ -194,7 +201,7 @@
                         </div>
                         <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <li class="img_item">
-                            <div class="caption10 ctn_orange">
+                            <div class="caption8 ctn_orange">
                                 <h3>Orange</h3>
                                 <p>Vestibulum ante ipsum primis in fauci bus orci luctus et ultrices posuere cubilia. Ut in magna eget quam biben dum rhoncus ipsum.</p>
                                 <a href="#" class="pf_button">Details</a>
@@ -205,7 +212,7 @@
                         <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         
                         <li class="img_item">
-                            <div class="caption ctn_blueviolet">
+                            <div class="caption8 ctn_blueviolet">
                                 <h3>Blueviolet</h3>
                                 <p>Vestibulum ante ipsum primis in fauci bus orci luctus et ultrices posuere cubilia. Ut in magna eget quam biben dum rhoncus ipsum.</p>
                                 <a href="#" class="pf_button">Details</a>
@@ -215,7 +222,7 @@
                         </div>
                         <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <li class="img_item">
-                            <div class="caption3 ctn_pink">
+                            <div class="caption8 ctn_pink">
                                 <h3>Pink</h3>
                                 <p>Vestibulum ante ipsum primis in fauci bus orci luctus et ultrices posuere cubilia. Ut in magna eget quam biben dum rhoncus ipsum.</p>
                                 <a href="#" class="pf_button darkgray">Details</a>
@@ -225,7 +232,7 @@
                         </div>
                         <div class="item-blog col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <li class="img_item">
-                            <div class="caption7 ctn_indigo">
+                            <div class="caption8 ctn_indigo">
                                 <h3>Indigo</h3>
                                 <p>Vestibulum ante ipsum primis in fauci bus orci luctus et ultrices posuere cubilia. Ut in magna eget quam biben dum rhoncus ipsum.</p>
                                 <a href="#" class="pf_button">Details</a>
@@ -244,67 +251,25 @@
                         </li>
                     </div>
                 </ul><!-- End of .portfolio-items -->
-            </section><!-- End of .portfolio-container -->
+            
                 </div><!-- end row -->     
             </div><!-- end portfolio_wrapper -->
-
-            <div id="Case_Area">
-                <div class="wow animated fadeInLeft">
-                <div class="title text-center ">
-                    <h3 class="title-text">Case Area</h3>
-                    <hr>
-                    <em class="lead" >Mostly, we have to lead with the cases, is shown through the bar. </em>
-                </div><br>
-               <div class="item-blog1 col-lg-3 col-md-3 col-sm-10 col-xs-12">
-                    <div class=" pie-wrapper progress-30">
-                        <span class="label">30<span class="smaller">%</span></span>
-                        <div class="pie">
-                            <div class="left-side half-circle"></div>
-                            <div class="right-side half-circle"></div>
-                        </div>
-                    </div>
-                        <h3 class="title-pie"> Civil cases</h3><hr>
-                        <p class="lead white-text" >"Civil" cases are the cases in which private citizens (or companies) sue each other in court.  Civil cases are not about breaking a criminal law.</p>
-                </div>
-                </div>
-                <div class="wow animated zoomIn">
-               <div class="item-blog2 col-lg-3 col-md-3 col-sm-10 col-xs-12">
-                    <div class=" pie-wrapper progress-60">
-                        <span class="label">60<span class="smaller">%</span></span>
-                        <div class="pie">
-                            <div class="left-side half-circle"></div>
-                            <div class="right-side half-circle"></div>
-                        </div>
-                    </div>
-                        <h3 class="title-pie"> Criminal Cases</h3><hr>
-                        <p class="lead white-text" >"Criminal" cases are the cases in which private citizens (or companies) sue each other in court.  Civil cases are not about breaking a criminal law.</p>
-                </div>
-                </div>
-                <div class="wow animated fadeInRight">
-               <div class="item-blog3 col-lg-3 col-md-3 col-sm-10 col-xs-12">
-                    <div class=" pie-wrapper progress-90">
-                        <span class="label">90<span class="smaller">%</span></span>
-                        <div class="pie">
-                            <div class="left-side half-circle"></div>
-                            <div class="right-side half-circle"></div>
-                        </div>
-                    </div>
-                        <h3 class="title-pie"> Standard of proof</h3><hr>
-                        <p class="lead white-text" >"Standard" cases are the cases in which private citizens (or companies) sue each other in court.  Civil cases are not about breaking a criminal law.</p>
-                </div>
             </div>
-            </div>
-            <!-- end team_wrapper -->
+           
             <br>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+               
+
+            
+            
                 <div id="faq">
+                <div class="container">
                     <div class="title text-center">
-                        <h3 class="title-text">Frequently Asked Questions</h3>
+                        <h3 class="title-text faq-text">Frequently Asked Questions</h3>
                         <hr>
                         <em class="lead" >Here is the answer's , what people frequently ask us</em>
                     </div>
-                </div>
-            </div>
+
+            
     
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 wow animated zoomIn">
@@ -370,7 +335,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 wow animated fadeInRight">
+                <div class="col-md-6 col-sm-12 col-xs-12 wow animated zoomIn">
                     <h3 class="title-panel text-center">Business Law FAQs</h3><hr>
                     <div class="panel panel-default">
                         <div class="panel-heading clickable">
@@ -434,9 +399,79 @@
                     </div>
                 </div>
             </div>
+            </div>
+                </div>
             <!--End Faq -->
+            <div id="Case_Area">
+                <div class="wow animated fadeInLeft">
+                <div class="title text-center ">
+                    <h3 class="title-text">Case Area</h3>
+                    <hr>
+                    <em class="lead" >Mostly, we have to lead with the cases, is shown through the bar. </em>
+                </div><br>
+            </div> 
+            <div class="container pm-containerPadding-top-80 pm-containerPadding-bottom-40">
+            <div class="row">
+            
+                <!-- Column 1 -->
+                
+                <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp animated" data-wow-delay="0.3s" data-wow-offset="50" data-wow-duration="1s">
+                <div class="block-one block">
+                    <img src="images/icon1.png" width="200px" class="img-responsive pm-inline" alt="icon" />
+                    
+                    <h6 class="pm-column-title">personal case</h6>
+                    <div class="caret-down"><i class="fa fa-caret-down"></i></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla sem ut nisl auctor, sit amet auctor tortor mollis. Aliquam nibh elit, tincidunt sit amet orci ac, pellentesque pretium mi.</p>
+                    
+                    <div class="btn-blk"><a href="#" class="pm-rounded-btn">meet our trainers</a></div>
+                    
+                </div>
+                </div>
+                <!-- Column 1 end -->
+                
+                <!-- Column 2 -->
+                
+                <div class="col-lg-4 col-md-4 col-sm-12wow fadeInUp animated
+                    " data-wow-delay="0.6s" data-wow-offset="50" data-wow-duration="1s">
+                    <div class="block-one block">
+                    <img src="images/icon2.png" width="200px" class="img-responsive pm-inline" alt="icon" />
+                    
+                    <h6 class="pm-column-title">Business Case</h6>
+                    <div class="caret-down"><i class="fa fa-caret-down"></i></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla sem ut nisl auctor, sit amet auctor tortor mollis. Aliquam nibh elit, tincidunt sit amet orci ac, pellentesque pretium mi.</p>
+                    
+                    <div class="btn-blk"><a href="#" class="pm-rounded-btn">view programs</a>
+                    </div>
+                    
+                </div>
+                </div>
+                <!-- Column 2 end -->
+                
+                <!-- Column 3 -->
+                
+                <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp animated
+                " data-wow-delay="0.9s" data-wow-offset="50" data-wow-duration="1s">
+                <div class="block-one">
+                    <img src="images/icon3.png" width="200px" class="img-responsive pm-inline" alt="icon" />
+                    
+                    <h6 class="pm-column-title">special case</h6>
+                    <div class="caret-down"><i class="fa fa-caret-down"></i></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla sem ut nisl auctor, sit amet auctor tortor mollis. Aliquam nibh elit, tincidunt sit amet orci ac, pellentesque pretium mi.</p>
+                    
+                    <div class="btn-blk"><a href="#" class="pm-rounded-btn">view classes</a></div>
+                    
+                </div>
+                </div>
+                <!-- Column 3 end -->
+                
+            </div>
+        </div>
+
+
+            </div>
     
             <div id="team">
+            <div class="container">
                 <div class="title text-center">
                     <h3 class="title-text">OUR LAWYERS</h3>
                     <hr>
@@ -492,7 +527,7 @@
                 </div><!-- end team_list -->
             </div><!-- end team_wrapper -->  
         </div>
-    </body> 
+   
             
             <div id="contact">
                 <div class="title text-center">
@@ -503,7 +538,7 @@
                 </div>
             </div>    
             <div class="wow animated zoomIn" data-wow-delay="1s" style="margin-bottom: -8px;">
-                        <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=15+Springfield+Way,+Hythe,+CT21+5SH&amp;aq=t&amp;sll=52.8382,-2.327815&amp;sspn=8.047465,13.666992&amp;ie=UTF8&amp;hq=&amp;hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&amp;t=m&amp;z=14&amp;ll=51.077429,1.121722&amp;output=embed" frameborder="0" height="220" width="100%"></iframe>
+                        <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=15+Springfield+Way,+Hythe,+CT21+5SH&amp;aq=t&amp;sll=52.8382,-2.327815&amp;sspn=8.047465,13.666992&amp;ie=UTF8&amp;hq=&amp;hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&amp;t=m&amp;z=14&amp;ll=51.077429,1.121722&amp;output=embed" frameborder="0" height="320" width="100%"></iframe>
             </div>      
             <footer class="footer">
                 <div class="container">
@@ -577,13 +612,14 @@
                 </div><!-- end container -->
             </div><!-- end copyrights -->
         </div>    
-    <body>
+    
             <!-- Main Scripts-->
             <script src="js/jquery.js"></script>
             <script src="js/bootstrap.js"></script> 
             <script src="js/custom.js"></script>
             <script src="jquery.nav.min.js"></script>
             <script src="js/wow.min.js"></script>
+            <script src="js/rotator.js"></script>
 
 
             <script type="text/javascript">
@@ -636,6 +672,13 @@
         </script>
         <script>
             new WOW().init();
+        </script>
+        <script type="text/javascript">
+        $(".rotate").textrotator({
+  animation: "flip", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+  speed: 3000 // How many milliseconds until the next word show.
+});
         </script>
 
 </body>
