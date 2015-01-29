@@ -100,9 +100,10 @@
 		padding-left:0;
 	}
 	.lead {
-		font-weight:normal !important;
-		font-size:18px !important;
-		line-height:150%;
+		font-weight: normal !important;
+		font-size: 18px !important;
+		line-height: 150%;
+		color: rgb(119, 156, 147);
 	}
 	.hidden{
 		display:none
