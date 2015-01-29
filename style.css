@@ -14,193 +14,6 @@
 	9) RESPONSIVE
 	
 ################################################################# */ 
-img.img-responsive.pm-inline {
-text-align: center;
-margin: 0 auto;
-}
-h6.pm-column-title {
-	margin-top: 35px;
-	font-family: 'Oswald', sans-serif;
-	font-size: 30px;
-	text-align: center;
-	text-transform: capitalize;
-}
-.block-one {
-padding: 60px 15px 47px 15px;
-}
-.block {
-border-right: 2px solid rgba(199, 199, 199, 0.48);
-}
-.pm-rounded-btn {
-width: auto;
-height: auto;
-display: inline;
-background-color: #2a313a;
-min-width: 100px;
-display: inline-block;
-padding: 10px 30px;
-text-decoration: none;
-text-transform: uppercase;
-font-family: 'Open sans';
-font-size: 14px;
-font-weight: bold;
-color: white !important;
-margin: 15px 0px;
-text-align: center;
-border-radius: 99px;
--webkit-border-radius: 99px;
--o-border-radius: 99px;
-transition: all 0.4s;
--moz-transition: all 0.4s;
--webkit-transition: all 0.4s;
--o-transition: all 0.4s;
-}
-.btn-blk{
-	text-align: center;
-}
-.caret-down {
-text-align: center;
-padding: 0 0 17px 0;
-}
-
-
-.white-text{
-	color: white;
-}
-.faq-text{
-	color: white !important;
-}
-.angle-down{
-	position: relative;
-	top: 80px;
-}
-div#faq {
-	margin-top: -60px;
-background: rgb(33, 45, 42);
-padding: 111px;
-}
-div#Case_Area {
-	margin-top: -60px;
-padding-top: 111px;
-}
-
-
-h2.header-text:before{
-	content: "[";
-	position: relative;
-	right: 10px;
-	font-size: 90px;
-	top: 5px;
-}
-h2.header-text:after{
-	content: "]";
-	position: relative;
-	left: 10px;
-	font-size: 90px;
-	top: 5px;
-}
-span.rotate{
-	transition:1s;
-}
-div#contact {
-margin-top: -60px;
-padding-top: 111px;
-}
-
-
-div#Practice_Area {
-	top: -35px;
-	background: rgba(215, 215, 215, 0.188235);
-	padding: 111px;
-	position: relative;
-	}
-div#team {
-    padding-top: 100px;
-    background: aliceblue;
-}
-
-h2.header-text{
-	font-family: 'Raleway', sans-serif;
-	color: #fff;
-	font-size: 55px;
-	text-transform: uppercase;
-}
-
-.fa-4x{
-	font-size: 90px;
-}
-
-@media only screen and (min-width : 1024px) and (max-width : 1920px) {
-		.title-pie{
-	background: rgba(31, 65, 63, 1);
-	color: white !important;
-	}
-		}
-
-.title-pie{
-	background: rgba(31, 65, 63, 1);
-	color: white !important;
-	text-align: center;
-	padding: 5px;
-	font-variant: small-caps;
-}
-
-.title-text{
-	font-family: 'Montserrat Subrayada', sans-serif;
-	font-weight: bolder;
-
-}
-.space-top{
-	margin-top: 80px;
-}
-.spancolor{
-	color:#26CDA4;
-}
-.title-footer{
-	color:#fff;
-}
-
-.practice-box {
-    border: 1px solid #E5E5E5;
-    text-align: center;
-    display: table;
-    width: 100%;
-    margin-bottom: 60px;
-    position: relative;
-}
-		
-	@font-face {
-		font-family: 'quaver_serifregular';
-		src: url('fonts/quaverserif.eot');
-		src: url('fonts/quaverserifd41d.eot?#iefix') format('embedded-opentype'),
-			 url('fonts/quaverserif.woff') format('woff'),
-			 url('fonts/quaverserif.ttf') format('truetype'),
-			 url('fonts/quaverserif.svg#quaver_serifregular') format('svg');
-		font-weight: normal;
-		font-style: normal;
-	}
-
-	@font-face {
-		font-family: 'fquaver_sansregular';
-		src: url('fonts/quaversans.eot');
-		src: url('fonts/quaversansd41d.eot?#iefix') format('embedded-opentype'),
-			 url('fonts/quaversans.woff') format('woff'),
-			 url('fonts/quaversans.ttf') format('truetype'),
-			 url('fonts/quaversans.svg#quaver_sansregular') format('svg');
-		font-weight: normal;
-		font-style: normal;
-	}
-
-	@font-face {
-		font-family: 'bariol_boldbold';
-		src: url('fonts/bariol_bold-webfont.eot');
-		src: url('fonts/bariol_bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
-			 url('fonts/bariol_bold-webfont.woff') format('woff'),
-			 url('fonts/bariol_bold-webfont.ttf') format('truetype'),
-			 url('fonts/bariol_bold-webfont.svg#bariol_boldbold') format('svg');
-		font-weight: normal;
-		font-style: normal;
-	}
 
 /* ----------------------------------------------------
 	SKELETON
@@ -402,6 +215,153 @@ h2.header-text{
 		color:#656565;
 	}
 
+	.maps{
+		width: 100%;
+
+	}
+
+
+.white-text{
+	color: white;
+}
+.faq-text{
+	color: white !important;
+}
+.angle-down{
+	position: relative;
+	top: 80px;
+}
+img.img-responsive {
+	margin: 0 auto;
+}
+div#faq {
+	margin-top: -60px;
+	background: rgb(33, 45, 42);
+	padding-top: 111px;
+}
+div#Case_Area {
+	margin-top: -60px;
+padding-top: 111px;
+}
+
+
+h2.header-text:before{
+	content: "[";
+	position: relative;
+	right: 10px;
+	font-size: 90px;
+	top: 5px;
+}
+h2.header-text:after{
+	content: "]";
+	position: relative;
+	left: 10px;
+	font-size: 90px;
+	top: 5px;
+}
+span.rotate{
+	transition:1s;
+}
+div#contact {
+margin-top: -60px;
+padding-top: 111px;
+}
+
+
+div#Practice_Area {
+	top: -35px;
+	background: rgba(215, 215, 215, 0.188235);
+	padding-top: 111px;
+	position: relative;
+	}
+div#team {
+    padding-top: 100px;
+    background: aliceblue;
+}
+
+h2.header-text{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-size: 55px;
+	text-transform: uppercase;
+}
+
+.fa-4x{
+	font-size: 90px;
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1920px) {
+		.title-pie{
+	background: rgba(31, 65, 63, 1);
+	color: white !important;
+	}
+		}
+
+.title-pie{
+	background: rgba(31, 65, 63, 1);
+	color: white !important;
+	text-align: center;
+	padding: 5px;
+	font-variant: small-caps;
+}
+
+.title-text{
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-weight: bolder;
+
+}
+.space-top{
+	margin-top: 80px;
+}
+.spancolor{
+	color:#26CDA4;
+}
+.title-footer{
+	color:#fff;
+}
+
+.practice-box {
+    border: 1px solid #E5E5E5;
+    text-align: center;
+    display: table;
+    width: 100%;
+    margin-bottom: 60px;
+    position: relative;
+}
+		
+	@font-face {
+		font-family: 'quaver_serifregular';
+		src: url('fonts/quaverserif.eot');
+		src: url('fonts/quaverserifd41d.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/quaverserif.woff') format('woff'),
+			 url('fonts/quaverserif.ttf') format('truetype'),
+			 url('fonts/quaverserif.svg#quaver_serifregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'fquaver_sansregular';
+		src: url('fonts/quaversans.eot');
+		src: url('fonts/quaversansd41d.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/quaversans.woff') format('woff'),
+			 url('fonts/quaversans.ttf') format('truetype'),
+			 url('fonts/quaversans.svg#quaver_sansregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'bariol_boldbold';
+		src: url('fonts/bariol_bold-webfont.eot');
+		src: url('fonts/bariol_bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/bariol_bold-webfont.woff') format('woff'),
+			 url('fonts/bariol_bold-webfont.ttf') format('truetype'),
+			 url('fonts/bariol_bold-webfont.svg#bariol_boldbold') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
 /* ----------------------------------------------------
 	GENERAL STYLES
 ------------------------------------------------------- */
@@ -474,8 +434,23 @@ h2.header-text{
 	  color: #ededed;
 	}
 	.current {
-	background: rgba(93, 124, 120, 0.11);
+	background: rgba(218, 253, 249, 0.5);
 	}
+	.navbar-brand {
+	 float: left; 
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	height: 76px;
+	}
+
+    @media (max-width: 340px){
+	.navbar-brand {
+	 float: none !important; 
+	
+	}
+}
+
 	.menu-wrapper {	
 		position: absolute;	
 		width:100%;
@@ -520,7 +495,7 @@ h2.header-text{
 		padding-right:20px;
 	}
 	.header, .navbar-default, #custom .menu-wrapper.affix .header, #custom .menu-wrapper.affix .navbar-default {
-	background: rgb(170, 181, 179) !important;
+	background: rgb(48, 173, 151) !important;
 	margin-top: -20px;
 	transition: .4s;
 	}
@@ -528,6 +503,14 @@ h2.header-text{
 	#custom .menu-wrapper.affix .navbar-default .navbar-nav > li > a {
 		color:#fff !important;
 	}
+
+	@media (max-width:800px){
+	#custom .menu-wrapper.affix .navbar-default .navbar-nav i,
+	#custom .menu-wrapper.affix .navbar-default .navbar-nav > li > a {
+		color:#666 !important;
+	}
+	}
+
 	.menu-wrapper.affix {
 		
 		width:100%;
@@ -639,10 +622,10 @@ h2.header-text{
 		z-index: 1;
 	}
 	.copyrights {
-		background:#292929;
-		padding:35px 0 50px;
-		position:relative;
-		display:block;
+		background: #292929;
+		padding: 30px 0 20px;
+		position: relative;
+		display: block;
 	}
 	.footer-menu ul{
 		list-style:none;
@@ -1176,6 +1159,60 @@ border: 0px solid transparent !important;
 			color:#666 !important;
 		}
 	}
+
+
+/* ----------------------------------------------------
+	BLock
+------------------------------------------------------- */	
+
+	img.img-responsive.pm-inline {
+text-align: center;
+margin: 0 auto;
+}
+h6.pm-column-title {
+	margin-top: 35px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.block-one {
+padding: 60px 15px 47px 15px;
+}
+.block {
+border-right: 2px solid rgba(199, 199, 199, 0.48);
+}
+.pm-rounded-btn {
+width: auto;
+height: auto;
+display: inline;
+background-color: #2a313a;
+min-width: 100px;
+display: inline-block;
+padding: 10px 30px;
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'Open sans';
+font-size: 14px;
+font-weight: bold;
+color: white !important;
+margin: 15px 0px;
+text-align: center;
+border-radius: 99px;
+-webkit-border-radius: 99px;
+-o-border-radius: 99px;
+transition: all 0.4s;
+-moz-transition: all 0.4s;
+-webkit-transition: all 0.4s;
+-o-transition: all 0.4s;
+}
+.btn-blk{
+	text-align: center;
+}
+.caret-down {
+text-align: center;
+padding: 0 0 17px 0;
+}
 
 /* ----------------------------------------------------
 	Panels
