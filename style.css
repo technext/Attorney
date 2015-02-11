@@ -317,7 +317,8 @@ h2.header-text{
 .spancolor{
 	color:#26CDA4;
 }
-.title-footer{
+.title-footer,
+.title-footer a{
 	color:#fff;
 }
 
