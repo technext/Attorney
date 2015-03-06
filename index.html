@@ -633,6 +633,15 @@
             speed: 3000 // How many milliseconds until the next word show.
             });
         </script>
-
+        <script type="text/javascript">
+          // Close the navbar if collapsed (small screen) when clicking on a menu link
+          // From edit 2 on
+          // http://stackoverflow.com/questions/14203279/bootstrap-close-responsive-menu-on-click/23171593#23171593
+          $(function () {
+            $('.navbar-collapse ul li a:not(.dropdown-toggle)').bind('click touchstart', function () {
+              $('.navbar-toggle:visible').click();
+            });
+          });
+        </script>
 </body>
 </html>
