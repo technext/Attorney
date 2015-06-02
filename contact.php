@@ -11,7 +11,6 @@
         'X-Mailer: PHP/' . phpversion();
 
 	if(mail($to, $subject, $message, $headers)) {
-		echo "Your mail was sent successfully!";
 		echo "<script>window.location.href = 'http://technext.github.io/Attorney/';</script>";
 	}
 	else {
