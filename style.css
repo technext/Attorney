@@ -316,8 +316,7 @@ h2.header-text{
 .spancolor{
 	color:#26CDA4;
 }
-.title-footer,
-.title-footer a{
+.title-footer {
 	color:#fff;
 }
 
@@ -1027,6 +1026,15 @@ border: 0px solid transparent !important;
 	.blog-item .hovereffect,
 	.team_member .magnifier {
 		background-color:rgba(38,205, 164, 0.8) !important;
+	}
+
+	.title-footer a:hover {
+	    color: #85D5C8!important;
+	    background-color: transparent!important;
+	}
+
+	.title-footer a {
+	    color: #30AD97;
 	}
 
 /* ----------------------------------------------------
